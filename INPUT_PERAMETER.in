@@ -1,0 +1,30 @@
+# write the input pdb files which are snapshot of protein system
+# within fix time interval in nenosecond
+inp_file1 = newframe1
+inp_file2 = newframe2
+time_int = 12.5
+
+# select option for the position and direction of magnetic field 
+# where we have to calculate. here we have to option either calculate 
+# magnetic field between two point(x,y,z) or two atoms 
+# select option == atoms for atom and points for point
+option = atoms
+
+# if option is points 
+v1x = 41.713
+v1y = 43.122
+v1z = 44.458
+v2x = 42.918
+v2y = 48.016
+v2z = 46.057
+
+# if option is atoms
+atm1_id = 5900
+atm2_id = 111111111111111
+
+# C terminal and N terminal
+N_terminal = 1
+C_terminal = 340
+
+
+
